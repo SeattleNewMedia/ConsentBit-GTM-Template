@@ -1,0 +1,14 @@
+# Community Template Gallery metadata.
+# `sha` must be the full 40-character commit SHA of the commit that contains the
+# template.tpl you want published. Add a new entry (never edit an old one) for
+# every release — the gallery treats the list as an append-only version history.
+homepage: https://consentbit.com
+versions:
+  - sha: 0000000000000000000000000000000000000000
+    changeNotes: |-
+      Initial release.
+      - Loads the ConsentBit consent banner from a Script ID.
+      - Sets Google Consent Mode v2 defaults (all denied except security_storage)
+        with a configurable wait_for_update.
+      - Optional region-specific defaults for opt-out jurisdictions.
+      - Optional ads_data_redaction and url_passthrough.
