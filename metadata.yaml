@@ -4,11 +4,9 @@
 # every release — the gallery treats the list as an append-only version history.
 homepage: https://consentbit.com
 versions:
-  - sha: 0000000000000000000000000000000000000000
+  - sha: ff7c46d9262c47339eba5ac06fefba3295c2bba6
     changeNotes: |-
       Initial release.
       - Loads the ConsentBit consent banner from a Script ID.
-      - Sets Google Consent Mode v2 defaults (all denied except security_storage)
-        with a configurable wait_for_update.
-      - Optional region-specific defaults for opt-out jurisdictions.
-      - Optional ads_data_redaction and url_passthrough.
+      - Sets the Google Consent Mode v2 default (all denied except
+        security_storage) before any other tag fires.
