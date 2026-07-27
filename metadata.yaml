@@ -3,6 +3,7 @@
 # template.tpl you want published. Add a new entry (never edit an old one) for
 # every release — the gallery treats the list as an append-only version history.
 homepage: https://consentbit.com
+documentation: https://consentbit.com
 versions:
   - sha: ff7c46d9262c47339eba5ac06fefba3295c2bba6
     changeNotes: |-
