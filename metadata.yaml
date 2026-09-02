@@ -6,7 +6,7 @@
 homepage: https://consentbit.com
 documentation: https://consentbit.com
 versions:
-  - sha: 0000000000000000000000000000000000000000
+  - sha: 78d2fc6612bd77f1a37d9ebb9f42c7b64cbbd0bd
     changeNotes: |-
       Initial release.
       - Loads the ConsentBit consent banner from a Script ID.
